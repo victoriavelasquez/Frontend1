@@ -1,0 +1,27 @@
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.title{
+    background-color: cornflowerblue;
+    color: darkblue;
+    border-radius: 2px;
+
+}
+.title-two{
+    background-color: cornflowerblue;
+    color: darkblue;
+    border-radius: 2px;
+}
+.title-three{
+    background-color: cornflowerblue;
+    color: darkblue;
+    border-radius: 2px;
+}
+.title-four{
+    background-color: cornflowerblue;
+    color:darkblue;
+    border-radius: 2px;
+}

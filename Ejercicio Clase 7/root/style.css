@@ -25,3 +25,11 @@
     color:darkblue;
     border-radius: 2px;
 }
+span{
+    font-weight: bolder;
+}
+.pie-de-pagina{
+    background-color: rgb(79, 91, 143);
+    text-align: center;
+
+}

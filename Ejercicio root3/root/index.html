@@ -5,41 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section class="header-section">
-            <ul>
-              <li>Grandes ofertas en comederos</li>
-              <br>
-              <li>Español</li>
-              <li>Args</li>
+        <div class="header-section">
+            <P class="header1">Grandes ofertas en comederos<P>
+             <div>
+              <select name="idiomas" id="idiomas" class="seleccionar">
+              <option>Español</option>
+              <option>Args</option>
+              </select> 
+              <select name="dinero" id="dinero" class="seleccionar">
+                <option>ARG $</option>
+                <option>COP $</option>
+                </select> 
+              </div>   
+            </div>
             
-            
-            </ul>
-        </section>
-      <nav class="header-navbar">
-        <img src="assets/Logo.png" alt="Logo de la empresa">
-        <br>
-        <ul>
-          <li><a href="#">Categorias</a></li>
-          <li><a href="#">Pets</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Contactanos</a></li>
-        </ul>
-      </nav>
+      <div class="header-navbar">
+        <img src="assets/Logo.png" alt="Logo de la empresa" class="logo"/>
+          <div>
+          <nav class="navbar">
+            <a><img src="assets/pawprint 1.png"/>Categorías</a>
+            <a><img src="assets/pawprint 1.png"/>Pet</a>
+            <a><img src="assets/pawprint 1.png"/>Nosotros</a>
+            <a><img src="assets/pawprint 1.png"/>Contactanos</a>
+          </nav> 
+        </div>
+      </div>
+      <div>
       <section>
         <h1>¡Es un placer tenerte aqui!</h1>
-        <br>
-        <img src="assets/bowl-and-pet-daities-on-green-background 1.jpg">
+      </div>
+        <img src="assets/bowl-and-pet-daities-on-green-background 1.jpg"/>
         </section>
-    </header>
+      </header>
     <main>
       <section>
         <h2>Productos destacados</h2>
         <h4>Comederos - accesorios - Comida</h4>
         <img  src="assest/churrasquito.png">
       </section>
+      <section>
+        <img src="assets/churrasquito.png">
+        <p>Juguete churrasquito</p>
+        <p>$150</p>
+      </section>
+      <section>
+        <img src="assets/comedero.png">
+        <p>Comedero para perros</p>
+        <p>$250</p>
+        </section>
+      <section>
+        <img src="assets/Huesito.png">
+        <p>Juguete Huesito</p>
+        <p>$650</p>
+      </section>
+      <section>
+        <h2>Contactanos</h2>
+        <ul class=>
+          <li><a href="#">Nombre y Apellido</a></li>
+          <li><a href="#">Ingresa tu correo electronico</a></li>
+          <li><a href="#">Teléfono</a></li>
+        </ul>
+      </section>
     </main>
+      <footer>
+      <section class="footer1">
+        <p><img src="assets/Vector (2).png"> Suscríbite para más novedades</p>
+      </section>
+      <div class="footer2">
+        <p class="footer3"><img src="assets/Icono.png">Localidad <span>Calle-Provincia</span></p>
+        <p><img src="assets/Iconotelefono(2).png">Teléfono <span>Número de teléfono</span></p>
+        <p><img src="assets/Iconocorreo(1).png">Correo Electrónico<span>Dirección de Correo</span></p>
+        <img src="assets/Logo (1).png">
+      </div>
+      <section class="footer4">
+        <p>Todos los derechos reservados a Front end</p>
+      </section>
+
+      
+
+
+
+ 
+  </footer>
 </body>
 </html>

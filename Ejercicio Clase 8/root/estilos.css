@@ -1,0 +1,47 @@
+
+body{
+    background-color: rgb(231, 196, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado{
+    background-image: url(https://fondosmil.com/marmol-rosa);
+}
+#foto{
+    margin: auto;
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+#formatotitulo{
+    background-color: #ca84bf ;
+}
+#titulo{
+    color: white;
+    display: inline;
+    align-items: center;
+    padding: 0%;
+}
+.ancor{
+    color: white;
+    text-align: center;
+}
+.tabulacion{
+    margin: 40px;
+
+}
+.tabulacion1{
+    margin: 40px;
+}
+.piedepagina{
+    background-color: #ca84bf;
+    color: white;
+    align-items: center;
+}
+#nombre{
+    color: white;
+}
+.perfil{
+    background-color: #ca84bf ;
+    text-align: center;
+    color: white;
+}

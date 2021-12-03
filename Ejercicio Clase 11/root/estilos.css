@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto',  sans-serif;
+    padding-bottom:200 em ;
+}
+.bloque1{
+  
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+.bloque2{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+}  
+.cajaPrincipal{
+    display: flex;
+    
+}
+.contenedor1{
+    position: relative;
+
+}
+
+.contenedor2{
+    padding-left: 20px;
+    flex-grow: 2;
+}
+.h2{
+    color: red;
+    text-align: center;
+}
+.contenido{
+    display: flex;
+}
+.arbol{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 70 30 70px;
+}
+
+
+.rojo{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    left: 20px;
+   
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    color:red;
+}
+.blanco{
+    color: white;
+}
+.rojo1{
+    color: red;
+}
